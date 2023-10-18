@@ -1,0 +1,158 @@
+/* General */
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Carrusel */
+#myCarousel img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Menú */
+nav {
+    display: flex;
+    flex-direction: column; /* Cambiamos a columna en pantallas pequeñas */
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+
+ul li {
+    display: block; /* Cambiamos a bloque en pantallas pequeñas */
+    padding: 10px 0;
+    text-align: center; /* Alineación al centro en pantallas pequeñas */
+}
+
+a {
+    color: rgb(15, 15, 15);
+    text-decoration: none;
+}
+
+.logo {
+    width: 100px;
+    height: 90px;
+}
+
+/* Mensaje de invitación */
+.mensaje1 {
+    font-size: 30px;
+    margin: 4%;
+    text-align: center;
+}
+
+.t1 {
+    margin-bottom: 10px;
+    font-family: Arial;
+    font-weight: bold;
+}
+
+/* Productos más vendidos */
+/* Nuevos Productos */
+.custom-texto {
+    padding: 20px; /* Reducimos el espacio en pantallas pequeñas */
+}
+
+.custom-texto1 {
+    color: #5f5f5f;
+    text-decoration: line-through;
+    font-size: 18px; /* Reducimos el tamaño de fuente */
+}
+
+.custom-texto2 {
+    color: #3284bb;
+    text-decoration: none;
+    font-size: 24px; /* Reducimos el tamaño de fuente */
+}
+
+/* Sobre Nosotros */
+.polar {
+    height: 300px; /* Reducimos la altura en pantallas pequeñas */
+}
+
+.polar2 {
+    display: grid;
+    grid-template-columns: 1fr; /* Cambiamos a una sola columna en pantallas pequeñas */
+    grid-template-rows: auto;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 4%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.tpolar {
+    text-align: center;
+}
+
+/* Pie de página */
+footer {
+    padding: 4px;
+    background-color: #ffffff;
+    border-top: solid 1.5px #88888880;
+    color: #000000;
+    text-align: center;
+}
+
+/* Menú - Helados */
+.custom-contenido {
+    margin-top: 20px; /* Reducimos el margen en pantallas pequeñas */
+}
+
+.custom-fondo {
+    background-color: #208496;
+    height: auto; /* Cambiamos a altura automática */
+    width: 100%; /* Ancho al 100% para ocupar todo el ancho de la pantalla */
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.custom-imagen {
+    margin-top: 5px;
+    height: auto; /* Cambiamos a altura automática */
+    width: 100%; /* Ancho al 100% para ocupar todo el ancho de la pantalla */
+}
+
+.about {
+    padding: 20px;
+}
+
+.about h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Categorías */
+.producto {
+    display: flex;
+    flex-direction: column; /* Cambiamos a columna en pantallas pequeñas */
+    margin-left: 0; /* Eliminamos el margen izquierdo */
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 100%; /* Ancho al 100% para ocupar todo el ancho de la pantalla */
+}
+
+.producto img {
+    width: 100%; /* Ancho al 100% para ocupar todo el ancho de la pantalla */
+    height: auto; /* Cambiamos a altura automática */
+}
+
+.producto h2 {
+    margin-top: 10px; /* Reducimos el margen superior */
+    font-size: 20px; /* Reducimos el tamaño de fuente */
+}
+
+.precio {
+    margin-top: 10px; /* Reducimos el margen superior */
+    margin-left: 0; /* Eliminamos el margen izquierdo */
+    font-weight: bold;
+    font-size: 18px; /* Reducimos el tamaño de fuente */
+}
+
+/* Admin */
+.productos {
+    width: 100%; /* Ancho al 100% para ocupar todo el ancho de la pantalla */
+}

@@ -1,0 +1,31 @@
+body {
+  background-color: #0d6efd;
+}
+
+.container {
+    background-color: #fff;
+    backdrop-filter: blur(3px);
+    margin-top: 150px; /* Reduzco el margen superior para dar espacio en pantallas pequeñas */
+    padding: 20px; /* Agrego espacio interno al contenedor */
+    border-radius: 20px;
+    max-width: 80%; /* Evita que el contenedor sea más ancho que la pantalla */
+    height: auto; /* Ajusta la altura automáticamente según el contenido */
+}
+
+h3 {
+    margin-top: 10px; /* Reduzco el margen superior para dar espacio en pantallas pequeñas */
+    font-size: 24px; /* Ajusto el tamaño de fuente para pantallas pequeñas */
+}
+
+/* Estilos personalizados para dispositivos móviles */
+@media (max-width: 768px) {
+    .container {
+      margin-top: 25%; /* Espacio superior en pantallas pequeñas */
+    }
+    .col-md-5 {
+      padding: 10px; /* Espacio interno en pantallas pequeñas */
+    }
+    .login {
+      text-align: center; /* Centrar el título en pantallas pequeñas */
+    }
+}

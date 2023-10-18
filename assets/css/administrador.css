@@ -1,0 +1,4 @@
+body {
+    background-image: url('../../../polar/assets/img/extras/nosotros.png');
+    background-size: cover; /* Hace que la imagen de fondo sea responsive */
+}

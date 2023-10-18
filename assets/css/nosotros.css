@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Primera caja */
+
+.caja-uno {
+  background-image: url('/polar/assets/img/extras/copa.jpg') ;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+}
+
+.mensaje {
+  color: #fff;
+  margin-left: 100px;
+}
+
+.btn1 {
+  background-color: rgb(30, 120, 200);
+  display: inline-block;
+  border: 10px;
+  width: 188px;
+  text-align: center;
+  text-decoration: none ;
+  color: rgb(255, 255, 255);
+  padding: 15px 32px;
+  border-radius: 20px;
+}
+
+.btn1:hover {
+  background-color: rgb(255, 255, 255);
+  color: rgb(30, 120, 200);
+}
+
+.content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 600px;
+  width: 100%;
+}
+
+.fondo {
+  height: 100px;
+  width: 90%;
+  background-color:rgb(255, 255, 255);
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right:5% ;
+}
+
+ul li{
+  display: inline-block;
+  padding: 0px 20px ;
+}
+
+a{
+  color: rgb(15, 15, 15);
+  text-decoration: none;
+}
+
+a:hover{
+  color: aqua;
+}
+
+img {
+  height: 25%px;
+  width: 100%;
+}
+
+.texto1 {
+  margin-top: 5%;
+  margin-right: 5%;
+  border-radius: 10px;
+  text-align: justify;
+}
+
+.nosotros {
+  height: 350px;
+  width: 450px;
+  margin-left: 12%;
+  margin-top: 15%;
+}
+
+.c1 {
+  margin-top: 12% ;
+  margin-left: 10%;
+}
+
+.c2 {
+  margin: 5%;
+  text-align: justify;
+}
+
+h1 {
+  color: aliceblue;
+}
+
+h3 {
+  color: rgb(26, 26, 26);
+}
+
+.titulo-uno {
+  font-size: 36px;
+  text-align: center;
+  color: rgb(26, 26, 26);
+}
+
+p {
+  color: rgb(0, 0, 0);
+}
+
+
+.texto2 {
+  margin-left: 3%;
+  text-align: center;
+  width: 50%;
+  border-radius: 15px;
+  margin-top: 15%;
+}
