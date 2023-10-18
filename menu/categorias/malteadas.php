@@ -1,5 +1,5 @@
 <?php 
-    include ('/polar/php/conexion.php');
+    include ('/php/conexion.php');
 
     $sql = $conexion->prepare("SELECT * FROM productos WHERE idCategoria=3");
     $sql->execute();
