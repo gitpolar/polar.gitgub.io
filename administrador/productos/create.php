@@ -1,5 +1,5 @@
 <?php
-    include ('../../../polar/php/conexion.php');
+    include ('/php/conexion.php');
 
     $id = "";
     $idcategoria = "";
@@ -43,7 +43,7 @@
 
             $successMessage = "Producto agregado correctamente";
 
-            header("location: /polar/administrador/productos/inicio.php");
+            header("location: /administrador/productos/inicio.php");
             exit;
 
             } while (false);
@@ -56,9 +56,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="/polar/assets/img/extras/1logo.png">
-    <link rel="stylesheet" href="/polar/assets/css/index.css">
-    <link rel="stylesheet" href="/polar/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="/assets/img/extras/1logo.png">
+    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
     <title>Añadir un producto</title>
 </head>
 
@@ -135,12 +135,12 @@
                     <button type="submit" class="btn btn-primary">Enviar</button>
                 </div>
                 <div class="col-sm-3 d-grid">
-                    <a class="btn btn-outline-primary" href="/polar/administrador/productos/inicio.php" role="button">Cancelar</a>
+                    <a class="btn btn-outline-primary" href="/administrador/productos/inicio.php" role="button">Cancelar</a>
                 </div>
             </div>
         </form>
     </div>
 
-<script src="/polar/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
