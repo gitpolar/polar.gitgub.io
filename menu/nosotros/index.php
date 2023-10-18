@@ -4,17 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/polar/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="/polar/assets/img/extras/1logo.png">
-    <link rel="stylesheet" href="/polar/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="/assets/img/extras/1logo.png">
+    <link rel="stylesheet" href="/assets/css/index.css">
     <title>Heladería Polar - Nosotros</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <div class="container">
-            <a class="navbar-brand" href="/polar/php/index.php">
-                <img src="/polar/assets/img/extras/1logo.png" alt="Logo" class="logo">
+            <a class="navbar-brand" href="/php/index.php">
+                <img src="/assets/img/extras/1logo.png" alt="Logo" class="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,16 +28,16 @@
                             Categorías
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="categoDropdown">
-                            <li><a class="dropdown-item" href="/polar/menu/categorias/helados.php">Helados</a></li>
-                            <li><a class="dropdown-item" href="/polar/menu/categorias/postres.php">Postres</a></li>
-                            <li><a class="dropdown-item" href="/polar/menu/categorias/malteadas.php">Malteadas</a></li>
+                            <li><a class="dropdown-item" href="/menu/categorias/helados.php">Helados</a></li>
+                            <li><a class="dropdown-item" href="/menu/categorias/postres.php">Postres</a></li>
+                            <li><a class="dropdown-item" href="/menu/categorias/malteadas.php">Malteadas</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/polar/menu/nosotros/">Nosotros</a>
+                        <a class="nav-link" href="/menu/nosotros/">Nosotros</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/polar/menu/login/validar.php">Iniciar Sesión</a>
+                        <a class="nav-link" href="/menu/login/validar.php">Iniciar Sesión</a>
                     </li>
                 </ul>
             </div>
@@ -55,7 +55,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <img src="/polar/assets/img/extras/2login.jpg" class="img-fluid" alt="imagen">
+                <img src="/assets/img/extras/2login.jpg" class="img-fluid" alt="imagen">
             </div>
         </div>
     </div>
@@ -108,14 +108,12 @@
             </div>
             <div class="col-md-3">
                 <h3>Código QR</h3>
-                <p class="text-justify">
-                    Aquí va el código de la heladería
-                </p>
+                <img src="/assets/img/extras/codigo_qr.jpg">
             </div>
         </div>
     </div>
 
-    <script src="/polar/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
