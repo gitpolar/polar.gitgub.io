@@ -4,9 +4,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/polar/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="shortcut icon" href="/polar/assets/img/extras/1logo.png">
-    <link rel="stylesheet" href="/polar/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="shortcut icon" href="/assets/img/extras/1logo.png">
+    <link rel="stylesheet" href="/assets/css/index.css">
     <title>Productos</title>
 </head>
 
@@ -26,13 +26,13 @@
                             Gestión Polar
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dataDropdown">
-                            <li><a class="dropdown-item" href="/polar/administrador/usuarios/inicio.php">Usuarios</a></li>
-                            <li><a class="dropdown-item" href="/polar/administrador/categorias/inicio.php">Categorías</a></li>
-                            <li><a class="dropdown-item" href="/polar/administrador/productos/inicio.php">Productos</a></li>
+                            <li><a class="dropdown-item" href="/administrador/usuarios/inicio.php">Usuarios</a></li>
+                            <li><a class="dropdown-item" href="/administrador/categorias/inicio.php">Categorías</a></li>
+                            <li><a class="dropdown-item" href="/administrador/productos/inicio.php">Productos</a></li>
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="/polar/index.php">Cerrar Sesión</a>
+                        <a class="nav-link" href="/php/index.php">Cerrar Sesión</a>
                     </li>
                 </ul>
             </div>
@@ -43,8 +43,8 @@
         <div class="container my-5">
             <h2 class="text-center">Lista de productos</h2>
             <div class="text-center">
-                <a class="btn btn-success" href="/polar/administrador/productos/create.php" role="button">Nuevo producto</a>
-                <a class="btn btn-secondary" href="/polar/administrador/page.php" role="button">Regresar</a>
+                <a class="btn btn-success" href="/administrador/productos/create.php" role="button">Nuevo producto</a>
+                <a class="btn btn-secondary" href="/administrador/page.php" role="button">Regresar</a>
             </div>
             <br>
             <br>
@@ -62,7 +62,7 @@
                     </thead>
                     <tbody>
                         <?php
-                            include ("../../../polar/php/conexion.php");
+                            include ("/php/conexion.php");
 
                             $sql = "SELECT * FROM productos";
                             $result = $conexion->query($sql);
@@ -81,8 +81,8 @@
                                     <td>$row[precio]</td>
                                     <td><img style='width: 200px;' src='data:image/jpg;base64,". base64_encode($row['imagen']) . "'></td>
                                     <td>
-                                        <a class='btn btn-primary btn-sm' href='/polar/administrador/productos/edit.php?id=$row[id]'>Editar</a>
-                                        <a class='btn btn-danger btn-sm' href='/polar/administrador/productos/delete.php?id=$row[id]'>Eliminar</a>
+                                        <a class='btn btn-primary btn-sm' href='/administrador/productos/edit.php?id=$row[id]'>Editar</a>
+                                        <a class='btn btn-danger btn-sm' href='/administrador/productos/delete.php?id=$row[id]'>Eliminar</a>
                                     </td>
                                 </tr>
                                 ";
@@ -94,6 +94,6 @@
         </div>
     </section>
 
-<script src="/polar/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
