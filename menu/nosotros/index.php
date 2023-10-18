@@ -108,7 +108,7 @@
             </div>
             <div class="col-md-3">
                 <h3>Código QR</h3>
-                <img src="/assets/img/extras/codigo_qr.jpg">
+                <img style="width: 100px; height: 100px;" src="/assets/img/extras/codigo_qr.jpg">
             </div>
         </div>
     </div>
