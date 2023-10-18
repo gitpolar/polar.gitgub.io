@@ -1,5 +1,5 @@
 <?php
-include ("../../../polar/php/conexion.php");
+include ("/php/conexion.php");
 
 $name = "";
 $password = "";
