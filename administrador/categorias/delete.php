@@ -1,5 +1,5 @@
 <?php
-  include ("../../../polar/php/conexion.php");
+  include ("/php/conexion.php");
 
   if ( isset($_GET["id"]) ) {
     $id = $_GET["id"];
@@ -9,6 +9,6 @@
 
     }
       
-    header("location: /polar/administrador/categorias/inicio.php");
+    header("location: /administrador/categorias/inicio.php");
     exit;
 ?>
